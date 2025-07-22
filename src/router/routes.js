@@ -6,6 +6,10 @@ export default [
       {
         path: '',
         component: () => import('pages/HomePage.vue')
+      },
+      {
+        path: '/form',
+        component: () => import('pages/form.vue')
       }
     ]
   }
